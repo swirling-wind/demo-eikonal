@@ -1,7 +1,3 @@
 {
-    "code-runner.executorMap": {
-        "python": "E:\\Miniconda\\envs\\py310\\python.exe -u",
-    },
-    "python.defaultInterpreterPath": "E:\\Miniconda\\envs\\py310\\python.exe",
     "python.analysis.typeCheckingMode": "off",
 }
