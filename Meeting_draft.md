@@ -1,6 +1,6 @@
 0. Could I record the meeting for study review?
 
-1. 
+1. [I think it is solved. Choose 1. plus]
 ```py
 grad_x_ior, grad_y_ior = compute_gradients(IOR)
 nx = grad_x_ior[int(y), int(x)]
@@ -14,6 +14,9 @@ new_vx = vx + delta_t * (nx / n)
 new_vy = vy + delta_t * (ny / n)
 # In concave len test, the wavefront spread slower in black area (lower IOR), which seems incorrect.
 ```
+Dark blue area is glass, IOR=1.5.
+Sky blue area is water, IOR=1.3.
+White areas is air, IOR=1.0.
 ![picture 0](images/9e8cd90494bd05176d8ae3c48a401193bb24cdcee41b54ab0b8964585cb452d5.png)  
 ![picture 1](images/77087a8b19a2d5fde323ef7c7f8f2925d022571d1302a91e8355d22ce5512042.png)  
 
